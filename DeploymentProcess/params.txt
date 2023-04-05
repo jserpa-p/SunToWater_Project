@@ -1,0 +1,279 @@
+{
+  "ipv4Address": "10.0.0.247",
+  "subnetMask": "255.255.255.0",
+  "gateway": "10.0.0.1",
+  "dns": "127.0.0.1",
+  "newHostname": "SunToWaterDC",
+  "domainName": "SunToWater.com",
+  "domainNetbiosName": "SunToWater",
+  "domainAdminUsername": "admin",
+  "domainAdminPassword": "Password123",
+  "OUs": [
+    {
+      "Name": "Financial",
+      "Path": "DC=SunToWater,DC=com"
+    },
+    {
+      "Name": "Marketing",
+      "Path": "DC=SunToWater,DC=com"
+    },
+    {
+      "Name": "HR",
+      "Path": "DC=SunToWater,DC=com"
+    },
+    {
+      "Name": "Operations",
+      "Path": "DC=SunToWater,DC=com"
+    },
+    {
+      "Name": "Security",
+      "Path": "DC=SunToWater,DC=com"
+    },
+    {
+      "Name": "IT Development",
+      "Path": "DC=SunToWater,DC=com"
+    }
+  ],
+  "Users": [
+    {
+      "FirstName": "Peter",
+      "LastName": "Gibbons",
+      "Title": "CMO",
+      "UserPrincipalName": "peter.gibbons@suntowater.com",
+      "Password": "P@ssw0rd0000",
+      "OUPath": "OU=Marketing,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Ron",
+      "LastName": "Weasley",
+      "Title": "Paid Media",
+      "UserPrincipalName": "ron.weasley@suntowater.com",
+      "Password": "P@ssw0rd0111",
+      "OUPath": "OU=Marketing,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Harry",
+      "LastName": "Potter",
+      "Title": "SEO",
+      "UserPrincipalName": "harry.potter@suntowater.com",
+      "Password": "P@ssw0rd1000",
+      "OUPath": "OU=Marketing,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Hermione",
+      "LastName": "Granger",
+      "Title": "Communications",
+      "UserPrincipalName": "hermione.granger@suntowater.com",
+      "Password": "P@ssw0rd1001",
+      "OUPath": "OU=Marketing,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Bob",
+      "LastName": "Slydell",
+      "Title": "CFO",
+      "UserPrincipalName": "bob.slydell@suntowater.com",
+      "Password": "P@ssw0rd0001",
+      "OUPath": "OU=Financial,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Luca",
+      "LastName": "Pacioli",
+      "Title": "Senior Auditor",
+      "UserPrincipalName": "luca.pacioli@suntowater.com",
+      "Password": "P@ssw0rd1011",
+      "OUPath": "OU=Financial,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Angela",
+      "LastName": "Martin",
+      "Title": "Sr. Accountant",
+      "UserPrincipalName": "angela.martin@suntowater.com",
+      "Password": "P@ssw0rd1100",
+      "OUPath": "OU=Financial,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Kevin",
+      "LastName": "Malone",
+      "Title": "Jr. Accountante",
+      "UserPrincipalName": "kevin.malone@suntowater.com",
+      "Password": "P@ssw0rd1101",
+      "OUPath": "OU=Financial,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Oscar",
+      "LastName": "Martinez",
+      "Title": "AP Administrator",
+      "UserPrincipalName": "oscar.martinez@suntowater.com",
+      "Password": "P@ssw0rd1110",
+      "OUPath": "OU=Financial,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Minerva",
+      "LastName": "McGonagall",
+      "Title": "Exec VP - HR",
+      "UserPrincipalName": "minerva.mcgonagall@suntowater.com",
+      "Password": "P@ssw0rd0010",
+      "OUPath": "OU=HR,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Sybill",
+      "LastName": "Trelawney",
+      "Title": "Director, Talent Acquisition",
+      "UserPrincipalName": "sybill.trelawney@suntowater.com",
+      "Password": "P@ssw0rd1111",
+      "OUPath": "OU=HR,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Remus",
+      "LastName": "Lupin",
+      "Title": "Manager, Training and Development",
+      "UserPrincipalName": "remus.lupin@suntowater.com",
+      "Password": "P@ssw0rd10000",
+      "OUPath": "OU=HR,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Severus",
+      "LastName": "Snape",
+      "Title": "HR Business Partner",
+      "UserPrincipalName": "severus.snape@suntowater.com",
+      "Password": "P@ssw0rd10001",
+      "OUPath": "OU=HR,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Bade",
+      "LastName": "Habib",
+      "Title": "CIO",
+      "UserPrincipalName": "bade.habib@suntowater.com",
+      "Password": "P@ssw0rd0011",
+      "OUPath": "OU=IT Development,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Samir",
+      "LastName": "Nagheenanajar",
+      "Title": "CTO",
+      "UserPrincipalName": "samir.nagheenanajar@suntowater.com",
+      "Password": "P@ssw0rd100010",
+      "OUPath": "OU=IT Development,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "John",
+      "LastName": "Dorian",
+      "Title": "Sr. Engineer",
+      "UserPrincipalName": "john.dorian@suntowater.com",
+      "Password": "P@ssw0rd10011",
+      "OUPath": "OU=IT Development,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Elliot",
+      "LastName": "Reid",
+      "Title": "Frontend Developer",
+      "UserPrincipalName": "elliot.reid@suntowater.com",
+      "Password": "P@ssw0rd10100",
+      "OUPath": "OU=IT Development,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Chris",
+      "LastName": "Turk",
+      "Title": "Backend Developer",
+      "UserPrincipalName": "chris.turk@suntowater.com",
+      "Password": "P@ssw0rd10101",
+      "OUPath": "OU=IT Development,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Courtney",
+      "LastName": "Hans",
+      "Title": "CISO",
+      "UserPrincipalName": "courtney.hans@suntowater.com",
+      "Password": "P@ssw0rd0100",
+      "OUPath": "OU=Security,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Brian",
+      "LastName": "Kerbs",
+      "Title": "Director, Information Security",
+      "UserPrincipalName": "brian.kerbs@suntowater.com",
+      "Password": "P@ssw0rd10110",
+      "OUPath": "OU=Security,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Milton",
+      "LastName": "Waddams",
+      "Title": "Facilities Manager",
+      "UserPrincipalName": "milton.waddams@suntowater.com",
+      "Password": "P@ssw0rd10111",
+      "OUPath": "OU=Security,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Perry",
+      "LastName": "Cox",
+      "Title": "Defensive Security Team",
+      "UserPrincipalName": "perry.cox@suntowater.com",
+      "Password": "P@ssw0rd11000",
+      "OUPath": "OU=Security,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Bob",
+      "LastName": "Kelso",
+      "Title": "Offensive Security Team",
+      "UserPrincipalName": "bob.kelso@suntowater.com",
+      "Password": "P@ssw0rd11001",
+      "OUPath": "OU=Security,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Michael",
+      "LastName": "Scott",
+      "Title": "COO",
+      "UserPrincipalName": "michael.scott@suntowater.com",
+      "Password": "P@ssw0rd0101",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Dwight",
+      "LastName": "Shrute",
+      "Title": "Divisional VP, Retail West",
+      "UserPrincipalName": "dwight.shrute@suntowater.com",
+      "Password": "P@ssw0rd11010",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Jim",
+      "LastName": "Halpert",
+      "Title": "Divisional VP, Retail East",
+      "UserPrincipalName": "jim.halpert@suntowater.com",
+      "Password": "P@ssw0rd11011",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Andy",
+      "LastName": "Bernard",
+      "Title": "Regional Manager, Washington, Idaho, Montana",
+      "UserPrincipalName": "andy.bernard@suntowater.com",
+      "Password": "P@ssw0rd11100",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Phyllis",
+      "LastName": "Lapin-Vance",
+      "Title": "Regional Manager, California & Oregon",
+      "UserPrincipalName": "phyllis.lapin_vance@suntowater.com",
+      "Password": "P@ssw0rd11101",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Kelly",
+      "LastName": "Kapoor",
+      "Title": "Regional Manager, New York, New Jersey, Connecticut",
+      "UserPrincipalName": "kelly.kapoor@suntowater.com",
+      "Password": "P@ssw0rd11110",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    },
+    {
+      "FirstName": "Meredith",
+      "LastName": "Palmer",
+      "Title": "Regional Manager, Florida, Georgia, Carolinas",
+      "UserPrincipalName": "meredith.palmer@suntowater.com",
+      "Password": "P@ssw0rd11111",
+      "OUPath": "OU=Operations,DC=SunToWater,DC=com"
+    }
+  ]
+}
